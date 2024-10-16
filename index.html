@@ -1,1 +1,75 @@
-hello world
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di Accesso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .login-container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff9900;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #e68a00;
+        }
+        .login-container p {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .login-container a {
+            color: #0073bb;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012015/amazon-logo-rgb.png?itok=FZJ5-sKg" alt="Amazon.it Logo" class="logo">
+        <h1>Accedi al tuo account</h1>
+        <form action="#" method="POST">
+            <input type="email" name="email" placeholder="Indirizzo email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Accedi</button>
+        </form>
+        <p>Hai dimenticato la password? <a href="https://www.amazon.it/ap/forgotpassword?openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&language=it_IT&pageId=amzn_retail_yourorders_it&openid.return_to=https%3A%2F%2Fwww.amazon.it%2Fyour-orders%2Forders%3Fref_%3Dnav_orders_first&prevRID=CSVY41T0WR3YFHGCFV9P&openid.assoc_handle=amzn_retail_yourorders_it&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Clicca qui</a></p>
+        <p>Nuovo utente? <a href="https://www.amazon.it/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.it%2Fyour-orders%2Forders%3Fref_%3Dnav_orders_first&prevRID=CSVY41T0WR3YFHGCFV9P&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_it&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&language=it_IT&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_retail_yourorders_it&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Crea un account</a></p>
+    </div>
+
+</body>
+</html>
